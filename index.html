@@ -12,24 +12,27 @@
     <div class="center">
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer"><img src="./images/skibidi-toilet-duo.webp" alt="Image of Two (2) Skibidi Toilets" class="skibidi-duo"></a>
         <br>
-        <a href="https://www.youtube.com/channel/UCsSsgPaZ2GSmO6il8Cb5iGA" target="_blank" rel="noopener noreferrer">Click here to check out the creator behind the masterpiece known as Skibidi Toilet</a>
+       <button onclick="skibidiCreator()" class="button-center skibidPurp">Click here to check out the creator behind the masterpiece known as Skibidi Toilet</button>
     </div>
 
     <div>
-        <div>
+        <div class="button-center">
             <audio id="audio" src="./audio/skibidi-toilet.mp3" autoplay="false"></audio>
-            <button onclick="clickSkibid();">Skibid</button>
+            <button onclick="clickSkibid()" class="skibidPurp">Skibid</button>
         </div>
     </div>
 
-    <button onclick="randomSkibidiEpisode()">Take me to a random Skibidi Toilet episode!</button>
-
+    <div class="button-center">
+        <button onclick="randomSkibidiEpisode()" class="skibidPurp">Take me to a random Skibidi Toilet episode!</button>
+    </div>
 
     <script src="./scripts/randomSkibidiEpisode.js"></script>
     <script src="./scripts/skibidAudio.js"></script>
-    <script
+    <script src="./scripts/skibidiCreator.js"></script>
+    
+    <!-- <script
     type="module"
     src="https://cdn.jsdelivr.net/npm/@bufferhead/nightowl@0.0.14/dist/nightowl.js">
-    </script>
+    </script> -->
 </body>
 </html>

@@ -80,4 +80,3 @@ function randomSkibidiEpisode() {
   window.open(links[i])
   return false;
 }
-untitledFunction();
